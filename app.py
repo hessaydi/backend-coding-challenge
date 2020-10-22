@@ -10,7 +10,7 @@ class Repos(Resource):
     def get(self):
         return langs()
 
-api.add_resource(Repos, '/api/')
+api.add_resource(Repos, '/')
 
 if __name__ == "__main__":
     app.run(debug=True, threaded=True)
