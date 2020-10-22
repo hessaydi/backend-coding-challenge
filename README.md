@@ -5,6 +5,7 @@ This is a simple application gets languages and trending repos list from Github 
 ## Requirements:
     Flask==1.1.2
     requests==2.24.0
+    Flask-RESTful==0.3.8
 
 ## How to install:
 First step is initiate a vertual envirnment by:
